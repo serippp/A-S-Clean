@@ -1,0 +1,56 @@
+A&S CLEAN — WEBSITE DE DEMONSTRAÇÃO
+
+ABRIR
+O site não precisa de instalação, comandos de build, conta paga ou backend.
+Para uma pré-visualização simples, abra index.html. A verificação completa
+foi realizada por HTTP sobre a pasta extraída do ZIP.
+
+PUBLICAR: GITHUB → NETLIFY
+1. Extraia TODO o ZIP, preservando a pasta assets e as suas subpastas.
+2. Envie o conteúdo extraído para a raiz do repositório GitHub.
+   index.html e netlify.toml devem estar ao mesmo nível da pasta assets.
+   Não carregue apenas os ficheiros soltos nem apenas o ZIP.
+3. Na Netlify, ligue o repositório. Sem comando de build.
+   Pasta de publicação: . (a raiz onde está index.html).
+4. Se optar por colocar o projeto numa subpasta do repositório,
+   configure essa subpasta como base na Netlify.
+5. Confirme imagens e os dois vídeos no endereço publicado.
+
+ALTERNATIVA
+Pode arrastar a pasta extraída completa para o deploy manual da Netlify.
+
+ESTRUTURA
+index.html / styles.css / main.js / netlify.toml / favicon.png / robots.txt
+assets/fonts/ — tipografia local Manrope e licença
+assets/logo/ — logótipo preparado e original fornecido
+assets/images/ — fotografia completa WebP e original fornecido
+assets/videos/ — os dois vídeos H.264/AAC e respetivos posters
+
+MATERIAIS
+Video Project 1.mp4 → assets/videos/hero.mp4
+Video Project 2.mp4 → assets/videos/processo.mp4
+Vídeos integrais, 720 × 1280 (9:16), sem cortes, barras ou distorção.
+O áudio é preservado; a apresentação no site decorre sem som.
+A fotografia de antes/depois é apresentada inteira, sem comparador artificial.
+
+COMPORTAMENTO
+O vídeo do hero tenta reproduzir automaticamente e sem som.
+O segundo vídeo só é carregado quando a secção se aproxima da área visível.
+Vídeos fora da área visível são pausados para poupar recursos.
+O botão de cada vídeo permite iniciar ou pausar a reprodução.
+Com movimento reduzido, não há introdução nem reprodução automática;
+continua a ser possível reproduzir os vídeos manualmente.
+A fotografia pode ser ampliada e fechada com Escape.
+O WhatsApp abre uma mensagem preparada. Nenhuma mensagem é enviada pelo site.
+
+DEMONSTRAÇÃO E PUBLICAÇÃO OFICIAL
+A demonstração está protegida contra indexação com meta robots, robots.txt
+e X-Robots-Tag em netlify.toml. Estas três definições devem ser revistas
+antes do lançamento oficial. Não é uma proteção de acesso por palavra-passe.
+Após definir o domínio oficial, adicione canonical, og:url e og:image
+com endereços absolutos desse domínio e prepare o sitemap.
+Não há formulários, cookies analíticos, pixels ou recursos de terceiros.
+Links para WhatsApp e Instagram abrem os respetivos serviços externos.
+
+VERIFICAÇÃO
+Consulte VERIFICACAO.txt para a lista de recursos, testes e limitações.

@@ -1,0 +1,87 @@
+A&S CLEAN — VERIFICAÇÃO DA ENTREGA
+Data: 27/10/2026
+
+PASTA DO PROJETO
+C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean
+Pasta de publicação: . (raiz do projeto; index.html ao lado de assets/).
+Sem comando de build. Configuração declarada em netlify.toml.
+
+RECURSOS INCLUÍDOS
+assets/fonts/manrope.woff2 | 24,836 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\fonts\manrope.woff2
+assets/fonts/OFL.txt | 4,387 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\fonts\OFL.txt
+assets/images/antes-depois-original.jpeg | 151,587 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\images\antes-depois-original.jpeg
+assets/images/antes-depois.webp | 174,266 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\images\antes-depois.webp
+assets/logo/logo-original.jpeg | 50,613 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\logo\logo-original.jpeg
+assets/logo/logo.png | 253,863 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\logo\logo.png
+assets/videos/hero-poster.jpg | 134,034 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\videos\hero-poster.jpg
+assets/videos/hero.mp4 | 3,779,368 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\videos\hero.mp4
+assets/videos/processo-poster.jpg | 73,672 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\videos\processo-poster.jpg
+assets/videos/processo.mp4 | 1,952,801 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\assets\videos\processo.mp4
+favicon.png | 14,924 bytes | localização: C:\Users\aamds\Documents\Codex\2026-10-27\files-mentioned-by-the-user-video\outputs\aes-clean\favicon.png
+
+CAMINHOS UTILIZADOS NO CÓDIGO
+./assets/fonts/manrope.woff2
+./assets/images/antes-depois.webp
+./assets/logo/logo.png
+./assets/videos/hero-poster.jpg
+./assets/videos/hero.mp4
+./assets/videos/processo-poster.jpg
+./assets/videos/processo.mp4
+./favicon.png
+./main.js
+./styles.css
+
+ORIGEM DOS MATERIAIS
+Video Project 1.mp4 → assets/videos/hero.mp4
+Video Project 2.mp4 → assets/videos/processo.mp4
+Os dois vídeos foram otimizados para H.264/AAC, yuv420p, 720×1280, faststart.
+Duração integral: cerca de 11,20 s e 17,24 s. Sem recorte, estiramento ou barras acrescentadas.
+Logótipo: WhatsApp Image 2026-10-25 at 4.54.34 PM.jpeg.
+Fotografia: WhatsApp Image 2026-10-27 at 2.42.13 PM (3).jpeg.
+Originais das duas imagens incluídos; fotografia WebP apresentada inteira.
+Os posters são fotogramas dos respetivos vídeos. Tipografia Manrope local, licença OFL incluída.
+
+TESTES CONCLUÍDOS
+- Sintaxe JavaScript validada. netlify.toml interpretado e pasta publish confirmada.
+- 10 referências locais únicas verificadas, incluindo capitalização exata. Nenhuma em falta.
+- 22 ligações de âncora verificadas; IDs únicos e destinos existentes.
+- Sem caminhos absolutos do computador, localhost, blob ou URLs temporários no código do site.
+- Descodificação completa dos dois MP4 sem erros. Ambos reproduzidos no navegador com readyState 4.
+- Hero: 720×1280, reprodução automática sem som verificada.
+- Segundo vídeo: carregamento na área visível, reprodução e pausa verificadas.
+- Navegação mobile: abertura, fecho, Escape e seleção de ligação verificados.
+- Serviços: seleção exclusiva por toque/clique verificada.
+- Fotografia ampliada e fecho por Escape verificados.
+- Layout verificado em 320, 390, 768, 1024 e 1440 px; sem deslocação horizontal.
+- Imagens carregadas, sem imagens quebradas nas verificações do navegador.
+- Introdução escondida após a animação curta; não depende do carregamento dos vídeos.
+- Consola do navegador: sem erros ou avisos nas verificações efetuadas.
+- WhatsApp, Instagram e telefone: destinos e mensagem codificada verificados.
+- Nenhuma mensagem foi enviada e nenhuma chamada foi iniciada.
+
+ACESSIBILIDADE E DESEMPENHO
+Controlos com nomes acessíveis, foco visível, skip link, menu com estado e contenção de foco,
+diálogo nativo, textos alternativos e serviços em details/summary.
+CSS e JavaScript respeitam prefers-reduced-motion; vídeos não iniciam automaticamente nessa preferência.
+As regras foram revistas no código; a preferência do sistema não foi alterada/emulada no navegador.
+Vídeos fora da área visível são pausados; o segundo vídeo é carregado apenas quando necessário.
+
+LIMITAÇÕES / PUBLICAÇÃO
+Testes visuais realizados em navegador Chromium com tamanhos de ecrã simulados.
+Não foi efetuado um teste físico em iPhone/Android ou noutros motores de navegador.
+A reprodução automática depende das políticas do navegador; existem posters e botões de reprodução.
+Não foi realizada nem testada uma publicação pública na GitHub/Netlify.
+A configuração entregue é estática e preparada para publicar a árvore completa.
+A demonstração contém noindex/nofollow, robots.txt bloqueado e X-Robots-Tag.
+O lançamento oficial requer rever essas três definições e definir domínio/canonical/partilha social.
+
+TESTE DO ZIP EXTRAÍDO
+RESULTADOS: APROVADO
+- ZIP com index.html na raiz e 18 ficheiros; sem pastas temporárias.
+- Integridade CRC do ZIP: OK.
+- Todos os ficheiros extraídos são idênticos aos da pasta entregue.
+- 18 pedidos HTTP aos ficheiros extraídos: todos 200, com conteúdos idênticos aos ficheiros.
+- Site extraído aberto no navegador: menu, diálogo, serviços por teclado e dois vídeos confirmados.
+- Repetidos os testes de 320, 390, 768, 1024 e 1440 px: sem overflow nem imagens quebradas.
+- Consola da cópia extraída: sem erros ou avisos.
+- Relatório atualizado no ZIP final e integridade/igualdade novamente confirmadas.
