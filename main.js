@@ -89,7 +89,7 @@ function playVideo(video) {
 }
 function updateVideoControl(video) {
   const button = document.querySelector('[data-video="' + video.id + '"]');
-  const playing = !video.paused && !video.ended;
+  const playing = !video.paused && !video.ended && !video.error && video.readyState >= 3;
   button.setAttribute('aria-label', playing ? 'Pausar vídeo' : 'Reproduzir vídeo');
   button.querySelector('span').textContent = playing ? 'Ⅱ' : '▶';
   button.querySelector('.control-text').textContent = playing ? 'Pausar' : 'Reproduzir';
@@ -97,7 +97,7 @@ function updateVideoControl(video) {
 videos.forEach(video => {
   video.muted = true;
   if (motion.matches) { video.autoplay = false; video.removeAttribute('autoplay'); video.pause(); }
-  ['play', 'pause', 'ended', 'error'].forEach(event => video.addEventListener(event, () => updateVideoControl(video)));
+  ['play', 'playing', 'pause', 'waiting', 'stalled', 'loadeddata', 'ended', 'error'].forEach(event => video.addEventListener(event, () => updateVideoControl(video)));
   document.querySelector('[data-video="' + video.id + '"]').addEventListener('click', () => {
     if (video.paused) { userPaused.delete(video); playVideo(video); }
     else { userPaused.add(video); video.pause(); }
